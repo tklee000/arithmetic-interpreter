@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    string input = "1+2+4+((1+2)*3)/3";
+    string input = "2*(3+1)";
 
     Lexer lexer(input);
     vector<Token> Tokens = lexer.GetTokens();
